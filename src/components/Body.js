@@ -76,7 +76,7 @@ const Body =()=>{
             <div style={{ fontFamily: 'Heaven' }} className="subscribe">SUBSCRIBE :</div>
             <form className="collect" onSubmit={handleSubmit}>
            
-            <input style={{fontFamily:'Pixelify Sans'}} placeholder="Enter your email" type="email" id="email_address"  name="email_address" value={inputData.email_address} onChange={handleData} /> <t/>
+            <input style={{fontFamily:'Pixelify Sans'}} placeholder="Enter your email" type="email" id="email_address"  name="email_address" value={inputData.email_address} onChange={handleData} onClick={handleSubmit} /> <t/>
             <input style={{fontFamily:'Heaven', cursor:"pointer"}}  type="submit" value="Submit"  />
             </form>
             <a href="https://t.me/trex20OfficialChat">
