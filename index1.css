@@ -429,18 +429,18 @@ cursor: none;
   .trex-body{
     background-image:url('./assets/trexmob.png');
     width: 100vw;
-    height: 105vh;
+    height: 106vh;
   }
   .inscription-body-1 {
     background-image: url('./assets/inscriptionmob1.png');
     width: 100vw;
-    height: 105vh;
+    height: 107vh;
   }
   .inscription-body-2 {
     background-image: url('./assets/inscriptionmob2.png');
     background-size: 100% 100%;
     width: 100vw;
-    height: 105vh;
+    height: 62vh;
     background-repeat: no-repeat;
   }
   .lotto-body{
@@ -452,7 +452,7 @@ cursor: none;
   .roadmap-body{
     background-image: url('./assets/roadmapmob.png');
     width: 100vw;
-    height: 105vh;
+    height: 106vh;
   }
   
 
