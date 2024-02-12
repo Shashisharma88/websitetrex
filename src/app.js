@@ -15,10 +15,7 @@ import Contact from "./components/Contact";
 import Navb from "./components/Navb";
 
 const AppLayout = ()=>{
-  useEffect(() => {
-    // Scroll the page down slightly to trigger the URL bar to collapse
-    window.scrollTo(0, 1);
-  }, []);
+ 
  
 
     return(

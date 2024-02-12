@@ -18,24 +18,6 @@ import "../fonts/fonts.css"
 
 
 const Body =()=>{
-    const data = {email_address:""};
-    const [inputData,setInputData]= useState(data)
-    
-    const handleData = (e)=>{
-        setInputData({...inputData,[e.target.name]:e.target.value})
-    }
-    const handleSubmit = (e)=>{
-        e.preventDefault();
-        axios.post("https://api.trex20.xyz/api/v1/subscribe",inputData)
-        .then((response)=>{
-            console.log(response)
-            e.target.reset();
-        })
-        .catch((error) =>{
-            console.log(error)
-        })
-    }
-
     const submitHandler = (event)=>{
         event.preventDefault();
          const email_address= event.target.email.value;
