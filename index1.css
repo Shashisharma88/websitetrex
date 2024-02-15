@@ -418,7 +418,7 @@ cursor: none;
   .home {
     background-image: url('./assets/trex20mob.gif');
     background-size: 100% 100%;
-    height:88vh;
+    height:84vh;
     width:100vw;
     background-repeat: no-repeat;
     margin-left: 0px;
@@ -434,7 +434,7 @@ cursor: none;
   .inscription-body-1 {
     background-image: url('./assets/inscriptionmob1.png');
     width: 100vw;
-    height: 115vh;
+    height: 114vh;
   }
   .inscription-body-2 {
     background-image: url('./assets/inscriptionmob2.png');

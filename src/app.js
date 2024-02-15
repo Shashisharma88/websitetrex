@@ -9,10 +9,7 @@ import {
   } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Body from "./components/Body";
-import Roadmap from "./components/Roadmap";
-import Neo from "./components/Neo";
-import Contact from "./components/Contact";
-import Navb from "./components/Navb";
+
 
 const AppLayout = ()=>{
  
