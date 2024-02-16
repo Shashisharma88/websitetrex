@@ -1,7 +1,6 @@
 import React,{useEffect} from "react"
 import  ReactDOM  from "react-dom/client"
 import Navbar from "./components/Navbar"
-
 import {
     BrowserRouter as Router,
     Routes,
@@ -9,10 +8,14 @@ import {
   } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Body from "./components/Body";
-
+import ReactGA from "react-ga4";
+const TRACKING_ID = "G-3YKH40LC3Z";
+ReactGA.initialize(TRACKING_ID);
 
 const AppLayout = ()=>{
- 
+ useEffect(()=>{
+  ReactGA.send(window.location.pathname);
+ },[]);
  
 
     return(
