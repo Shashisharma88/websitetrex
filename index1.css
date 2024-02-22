@@ -228,16 +228,25 @@ top: 39vh;
 .twitter{
   width:5.12vw;
   height:5.09vw;
-  left: 58vw;
+  left: 55vw;
   position: absolute;
   top: 57vh;
 }
 .telegram{
   width:4.8vw;
-  height:4.6vw;
-  left: 66vw;
+  height:4.8vw;
+  left: 61.5vw;
   position: absolute;
   top: 58vh;
+}
+.medium{
+  width:4.3vw;
+  height:4.3vw;
+  left: 67.8vw;
+  position: absolute;
+  top: 58.5vh;
+  border-radius: 20%;
+
 }
 .collect{
   left: 57vw;
@@ -476,18 +485,25 @@ cursor: none;
   top: 55vh;
   }
   .twitter{
-    width:15vw;
-    height:15vw;
-    left: 25vw;
+    width:16vw;
+    height:16vw;
+    left: 22vw;
     position: absolute;
-    top: 70vh;
+    top: 69.5vh;
   }
   .telegram{
     width:15vw;
     height:15vw;
-    left: 60vw;
+    left: 43vw;
     position: absolute;
     top: 70vh;
+  }
+  .medium{
+    width:13.5vw;
+    height:13.5vw;
+    left: 64vw;
+    position: absolute;
+    top: 70.5vh;
   }
   .collect{
     left: 25vw;

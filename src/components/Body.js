@@ -1,18 +1,9 @@
 import React, { useState} from "react";
 import axios from "axios"
-import Rectangle1 from "../../assets/Rectangle1.png"
-import comingsoon from "../../assets/trex20a.gif"
-
 import inbox from "../../assets/inboxu.png"
 import telegram from "../../assets/telegram.png"
 import twitter from "../../assets/twitter.png"
-import neo from "../../assets/neo.png"
-import gem from "../../assets/gem.png"
-import line from "../../assets/line.png"
-import roadmap from "../../assets/roadmapnew.png"
-import trex from "../../assets/tr.png"
-import inscription from "../../assets/in.png"
-import lotto from "../../assets/lotto.png"
+import medium from "../../assets/medium.png"
 import "../fonts/fonts.css"
 
 
@@ -80,8 +71,10 @@ const Body =()=>{
             </form>
             <a href="https://twitter.com/trex20_official " target="_blank">
             <img  className="twitter" alt="twitter_image" src={twitter} /></a>
-            <a href="   https://t.me/trex20OfficialChat" target="_blank">
+            <a href="https://t.me/trex20OfficialChat" target="_blank">
             <img  className="telegram" alt="telegram_image" src={telegram} /></a>
+            <a href="https://medium.com/@info_85446" target="_blank">
+            <img  className="medium" alt="medium" src={medium} /></a>
             </div>
         </div>
     </section>
