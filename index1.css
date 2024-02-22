@@ -235,17 +235,17 @@ top: 39vh;
 .telegram{
   width:4.8vw;
   height:4.8vw;
-  left: 61.5vw;
+  left: 61.7vw;
   position: absolute;
   top: 58vh;
 }
 .medium{
-  width:4.3vw;
-  height:4.3vw;
+  width:vw;
+  height:5vw;
   left: 67.8vw;
   position: absolute;
-  top: 58.5vh;
-  border-radius: 20%;
+  top: 57.5vh;
+  border-radius: 0%;
 
 }
 .collect{
@@ -499,12 +499,15 @@ cursor: none;
     top: 70vh;
   }
   .medium{
-    width:13.5vw;
-    height:13.5vw;
-    left: 64vw;
+    width:16vw;
+    height:16vw;
+    left: 62vw;
     position: absolute;
-    top: 70.5vh;
+    top: 69.7vh;
+
+    image-rendering: pixelated;
   }
+
   .collect{
     left: 25vw;
   position: absolute;

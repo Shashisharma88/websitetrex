@@ -74,7 +74,7 @@ const Body =()=>{
             <a href="https://t.me/trex20OfficialChat" target="_blank">
             <img  className="telegram" alt="telegram_image" src={telegram} /></a>
             <a href="https://medium.com/@info_85446" target="_blank">
-            <img  className="medium" alt="medium" src={medium} /></a>
+            <img  className="medium " alt="medium" src={medium} /></a>
             </div>
         </div>
     </section>
