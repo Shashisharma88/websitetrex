@@ -181,6 +181,70 @@ body {
   background-repeat: no-repeat;
 }
 
+
+#backers{
+  height:fit-content;
+  width:100vw;
+  background: #1A1C20;
+  margin: 0px;
+  padding: 0px;
+}
+.backers-body{
+  font-size:3.6vw;
+  padding: 1px;
+}
+.backers-logo{
+  display: flex;
+  flex-direction: column;
+  gap: 20vh;
+ 
+}
+.backers-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 100vw;
+}
+.triplegem{
+  height:150px;
+   width:auto;
+}
+.oddiyana{
+  height:170px;
+   width:auto;
+}
+.marshland{
+  height:140px;
+   width:auto;
+}
+.x21{
+  height:120px;
+   width:auto;
+}
+.moonrock{
+  width:350px;
+   height:auto;
+}
+.nabais{
+  width:350px;
+   height:auto;
+}
+.fundland{
+  width:300px;
+   height:auto;
+}
+.nxgen{
+  width:200px;
+   height:auto;
+}
+.text-with-gradient {
+  background: linear-gradient(183deg, #FF7A00 15.38%, rgba(255, 212, 61, 0.90) 97.8%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
 #contact{
   height: 100vh;
   width: 100vw;
@@ -463,8 +527,56 @@ cursor: none;
     width: 100vw;
     height: 108vh;
   }
+  .backers-body{
+    font-size: 15vw;
+  }
+  .backers-logo{
+    gap: 0vh;
+   
+  }
+ 
   
 
+  .triplegem{
+    height:100px;
+     width:auto;
+     margin-bottom: 5vh;
+  }
+  .oddiyana{
+    height:120px;
+     width:auto;
+     margin-bottom: 5vh;
+  }
+  .marshland{
+    height:70px;
+     width:auto;
+     margin-bottom: 5vh;
+  }
+  .x21{
+    height:70px;
+     width:auto;
+     margin-bottom: 5vh;
+  }
+  .moonrock{
+    width:190px;
+     height:auto;
+     margin-bottom: 5vh;
+  }
+  .nabais{
+    width:150px;
+     height:auto;
+     margin-bottom: 5vh;
+  }
+  .fundland{
+    width:150px;
+     height:auto;
+     margin-bottom: 5vh;
+  }
+  .nxgen{
+    width:150px;
+     height:auto;
+     margin-bottom: 5vh;
+  }
   .inbox{
     width: 50vw;
     height: auto;

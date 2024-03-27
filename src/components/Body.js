@@ -5,8 +5,14 @@ import telegram from "../../assets/telegram.png"
 import twitter from "../../assets/twitter.png"
 import medium from "../../assets/medium.png"
 import "../fonts/fonts.css"
-
-
+import triplegem from "../../assets/triplegem.png"
+import oddiyana from "../../assets/oddiyana.png"
+import fundland from "../../assets/fundland.png"
+import x21 from "../../assets/x21.png"
+import moonrock from "../../assets/moonrock.png"
+import marshland from "../../assets/marshland.png"
+import nabais from "../../assets/nabais.png"
+import nxgen from "../../assets/nxgen.png"
 
 const Body =()=>{
     const submitHandler = (event)=>{
@@ -52,6 +58,28 @@ const Body =()=>{
     <section id="roadmap">
         <div className="roadmap-body">
             
+        </div>
+    </section>
+    <section id="backers">
+        <div className="backers-body" style={{ fontFamily: 'Heaven'}} >
+           <p style={{ textAlign:"center",color:"#FF7A00"}} className="text-with-gradient">backers</p>
+           <div className="backers-logo" >
+              <div  className="backers-container">
+              <img className="triplegem" src={triplegem} />
+              <img className="oddiyana" src={oddiyana} />
+              <img className="marshland" src={marshland} />
+              <img className="x21" src={x21} />
+             </div>
+              <div  className="backers-container">
+              <img className="fundland" src={fundland}  />
+              <img className="nxgen" src={nxgen}    />
+              <img className="moonrock" src={moonrock} />
+               <img className="nabais" src={nabais}   />
+              
+              
+              
+             </div>
+           </div>
         </div>
     </section>
     <section id="contact">
