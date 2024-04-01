@@ -9,6 +9,8 @@ import {
 import Navbar from "./components/Navbar";
 import Body from "./components/Body";
 import ReactGA from "react-ga4";
+import Countdown from "./components/Countdown/Countdown";
+
 const TRACKING_ID = "G-3YKH40LC3Z";
 ReactGA.initialize(TRACKING_ID);
 
@@ -24,7 +26,7 @@ const AppLayout = ()=>{
         <Router>
         <Navbar/>
         
-        <Routes>
+           <Routes>
               <Route path="/" element={<Body/>}/>
               
             </Routes>

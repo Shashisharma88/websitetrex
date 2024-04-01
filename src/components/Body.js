@@ -103,6 +103,10 @@ const Body =()=>{
             <img  className="telegram" alt="telegram_image" src={telegram} /></a>
             <a href="https://medium.com/@trex20" target="_blank">
             <img  className="medium " alt="medium" src={medium} /></a>
+            <div className="inscription-data">
+                <span>CA BRC20 inscription ID:</span>  <span className="inscription-id">c1d02a5fd937c26dcfc1b5b5bcd7601a6ecc466c894274f144b3dd0c466</span>
+                <span style={{marginTop:"10px"}}>CA BEP20:</span><span className="inscription-id">0x29838b8C8b7CD6F0698c2fd6feAf0363d2CB6dA1</span> 
+            </div>
             </div>
         </div>
     </section>
