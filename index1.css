@@ -669,25 +669,39 @@ cursor: none;
   .twitter{
     width:16vw;
     height:16vw;
-    left: 22vw;
+    left: 4.7vw;
     position: absolute;
     top: 69.5vh;
   }
   .telegram{
     width:15vw;
     height:15vw;
-    left: 43vw;
+    left: 23.7vw;
     position: absolute;
     top: 70vh;
   }
   .medium{
     width:16vw;
     height:16vw;
-    left: 62vw;
+    left: 40.7vw;
     position: absolute;
     top: 69.7vh;
 
     image-rendering: pixelated;
+  }
+  .coingecko{
+    width:12.8vw;
+    height:12.8vw;
+    left: 59.7vw;
+    position: absolute;
+    top: 70.4vh;
+  }
+  .coinmarketcap{
+    width:13vw;
+    height:13vw;
+    left: 77.9vw;
+    position: absolute;
+    top: 70.4vh;
   }
   .inscription-data{
     top: 79vh;
