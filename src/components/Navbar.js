@@ -5,6 +5,7 @@ import icontrex from "../../assets/icontrex1.png"
 import iconinscription from "../../assets/iconinscription3.png"
 import iconlotto from "../../assets/iconlotto.png"
 import iconroadmap from "../../assets/iconroadmap.png"
+import whitepaper from "../../assets/whitepaper.png"
 
 const Navbar = () => {
   const [dropdownVisible, setDropdownVisible] = useState(false);
@@ -69,8 +70,8 @@ const Navbar = () => {
     </div>
       <div className="nav-end">
         <ul>
-          <li nav-end-item>?</li>
-          <li nav-end-item>X</li>
+         <a href="https://trex20.gitbook.io/trex20" target="_blank"><li className="nav-end-item1" ><img className="whitepaper" src={whitepaper} ></img></li></a> 
+          <a><li className="nav-end-item2" >X</li></a>
         </ul>
       </div>
       </div>

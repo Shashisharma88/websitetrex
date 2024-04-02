@@ -25,9 +25,10 @@ const AppLayout = ()=>{
         <>
         <Router>
         <Navbar/>
-        
+       
            <Routes>
               <Route path="/" element={<Body/>}/>
+              
               
             </Routes>
           </Router>

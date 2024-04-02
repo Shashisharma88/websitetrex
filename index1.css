@@ -76,12 +76,13 @@ body {
 }
 
 
-.nav-end>ul>li {
+.nav-end>ul>a>li {
   height:6.1vh;
   width:2.5vw;
   background: #AFAFAD;
   box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.62) inset;
-  padding-left: 1vw;
+ padding-left: 0.5vw;
+ padding-right: 0.5vw;
   margin-right: 0.88vw;
   text-decoration: none;
   font-family: 'Pixelify Sans';
@@ -90,7 +91,42 @@ body {
   font-style: normal;
   font-weight: 400; 
   margin-top: 2vh; 
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-end-item1 {
+  position: relative; /* Required for absolute positioning */
+ 
+}
+.whitepaper{
+  height: 4.4vh;
+  width: 4.4vh;
+}
+
+.nav-end-item1:hover::after {
+  content: "whitepaper"; /* Text to display on hover */
+  position: absolute;
+  top: 102%; /* Position it below the nav item */
+  left: 0;
+  background-color: #AFAFAD; /* White background */
+  color: #000000; /* Black text */
+  padding: 5px; /* Add padding for better visibility */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  z-index: 1; /* Ensure it appears on top of other elements */
+  white-space: nowrap; /* Prevent line break */
+  font-size: 15px;
+}
+
+.nav-end-item1:hover::before {
+  content: ""; /* Empty content for the link */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer; /* Change cursor on hover */
 }
 
 .dropdown>li {
@@ -292,25 +328,39 @@ top: 39vh;
 .twitter{
   width:5.12vw;
   height:5.09vw;
-  left: 55vw;
+  left: 51.4vw;
   position: absolute;
   top: 57vh;
 }
 .telegram{
   width:4.8vw;
   height:4.8vw;
-  left: 61.7vw;
+  left: 57.4vw;
   position: absolute;
   top: 58vh;
 }
 .medium{
   width:vw;
   height:5vw;
-  left: 67.8vw;
+  left: 62.8vw;
   position: absolute;
   top: 57.5vh;
   border-radius: 0%;
 
+}
+.coingecko{
+  width:4.1vw;
+  height:4.1vw;
+  left: 68.6vw;
+  position: absolute;
+  top: 58.2vh;
+}
+.coinmarketcap{
+  width:4.1vw;
+  height:4.1vw;
+  left: 74.1vw;
+  position: absolute;
+  top: 58.2vh;
 }
 .collect{
   left: 57vw;
