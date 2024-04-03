@@ -95,7 +95,7 @@ const Navbar = () => {
         <li style={{fontFamily:"Pixelify Sans"}}><a href="#lotto" style={{display:"flex" , justifyContent:"start"}}>&nbsp;&nbsp;<img src={iconlotto} />&nbsp;&nbsp;&nbsp;Lotto</a></li>
         <li style={{fontFamily:"Pixelify Sans"}}><a href="#roadmap" style={{display:"flex" , justifyContent:"start"}}>&nbsp;&nbsp;<img src={iconroadmap} />&nbsp;&nbsp;Roadmap</a></li>
         <li style={{fontFamily:"Pixelify Sans"}}><a href="#contact">&emsp;&ensp;Contact</a></li>
-        <li style={{fontFamily:"Pixelify Sans"}}><a href="#l"  onClick={toggleDropdown}>&emsp;&ensp;Launch App{dropdownVisible && (
+        <li style={{fontFamily:"Pixelify Sans"}}><a href="#l"  onClick={toggleDropdown}>&emsp;Launch App{dropdownVisible && (
               <ul className="dropdown">
                 <li>
                   <a className="drop" >Coming Soon</a>
@@ -103,6 +103,7 @@ const Navbar = () => {
                 
               </ul>
             )}</a></li>
+        <li style={{fontFamily:"Pixelify Sans"}}><a href="https://trex20.gitbook.io/trex20" target="_blank" >&emsp;Whitepaper</a></li>
       </ul>
     </nav>
     </>
