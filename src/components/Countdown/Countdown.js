@@ -6,17 +6,17 @@ export default function Countdown() {
  
 
   // Create a new Date object for April 25, 2024, at 2:30 PM
-var date = new Date(2024, 3, 9, 2, 24).getTime(); // Note: Months are zero-based, so 3 represents April, and hours are in 24-hour format
+// var date = new Date(2024, 3, 9, 17, 29).getTime(); // Note: Months are zero-based, so 3 represents April, and hours are in 24-hour format
 
-
+var date = new Date(Date.UTC(2024, 3, 9, 13, 0, 0));
   const countDown = date;
 
   return (
     <div className='countdown-tab'>
-      <h1 style={{color:"#fff"}}>Launching Soon...</h1>
-      
+     
+      <p >Launching Soon</p>
       <CountdownTimer targetDate={countDown} />
-      <h2 style={{fontFamily:"Pixelify Sans"}}>Countdown Begins...</h2>
+      
     </div>
   );
 }

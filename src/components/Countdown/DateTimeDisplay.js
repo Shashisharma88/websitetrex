@@ -5,7 +5,7 @@ const DateTimeDisplay = ({ value, type, isDanger }) => {
   return (
     <div className={isDanger ? 'countdown danger' : 'countdown'}>
       <p>{value}</p>
-      <span>{type}</span>
+      <span style={{letterSpacing:"0em"}}>{type}</span>
     </div>
   );
 };

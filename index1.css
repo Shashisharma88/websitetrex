@@ -172,6 +172,23 @@ body {
   margin-left: 10vw;
 
 }
+/* .timer{
+ 
+  height:120px;
+  
+ 
+} */
+.timer-container{
+  display: flex;
+  justify-content: center;
+ padding-top: 14vh;
+}
+/* .countdown-body{
+  
+ position: absolute;
+ top: 0;
+left: 400px;
+} */
 
 #trex{
   background: linear-gradient(180deg, #1D1A20 56.5%, #D28014 83.5%, rgba(240, 165, 0, 0.94) 98%);
@@ -234,7 +251,7 @@ body {
 .backers-logo{
   display: flex;
   flex-direction: column;
-  gap: 20vh;
+  gap: 10vh;
  
 }
 .backers-container{
@@ -261,6 +278,10 @@ body {
    width:auto;
 }
 .moonrock{
+  width:350px;
+   height:auto;
+}
+.orangedx{
   width:350px;
    height:auto;
 }
@@ -421,7 +442,10 @@ font-size: 1.5vw;
   background: #FF0000;
 }
 @media only screen and (max-width: 768px) {
-
+  .timer-container{
+    
+    padding-top: 25vh;
+   }
 .navbar-mob {
   background: linear-gradient(
     180deg,
@@ -644,6 +668,11 @@ cursor: none;
      height:auto;
      margin-bottom: 5vh;
   }
+  .orangedx{
+    width:180px;
+     height:auto;
+     margin-bottom: 5vh;
+  }
   .nxgen{
     width:150px;
      height:auto;
@@ -758,7 +787,13 @@ cursor: none;
 
 
 }
+@media only screen and (min-width: 1800px){
+  .timer-container{
+    
+   padding-top: 17vh;
+  }
 
+}
 
 /*.under {
   position: absolute;

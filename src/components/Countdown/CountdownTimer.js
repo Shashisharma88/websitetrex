@@ -5,8 +5,8 @@ import { useCountdown } from '../../hooks/useCountdown';
 const ExpiredNotice = () => {
   return (
     <div className="expired-notice">
-      <span>Expired!!!</span>
-      <p>Please select a future date and time.</p>
+      <span>Launched!!!</span>
+      
     </div>
   );
 };
@@ -21,11 +21,11 @@ const ShowCounter = ({ days, hours, minutes, seconds }) => {
         className="countdown-link"
       >
         <DateTimeDisplay value={days} type={'Days'} isDanger={days <= 3} />
-        <p>:</p>
+       <p className='dot'>:</p>
         <DateTimeDisplay value={hours} type={'Hours'} isDanger={false} />
-        <p>:</p>
+        <p className='dot'>:</p>
         <DateTimeDisplay value={minutes} type={'Mins'} isDanger={false} />
-        <p>:</p>
+        <p className='dot'>:</p>
         <DateTimeDisplay value={seconds} type={'Seconds'} isDanger={false} />
       </a>
     </div>

@@ -16,6 +16,12 @@ import nxgen from "../../assets/nxgen.png"
 import Countdown from "./Countdown/Countdown";
 import coingecko from "../../assets/coingecko.png"
 import coinmarketcap from "../../assets/coinmarketcap.png"
+import alex from "../../assets/alex.png"
+import seedify from "../../assets/seedify.png"
+import finceptor from "../../assets/finceptor.png"
+import orangedx from "../../assets/orangedx.png"
+import timer from "../../assets/timer.png"
+import Countdown from "./Countdown/Countdown";
 
 const Body =()=>{
     const submitHandler = (event)=>{
@@ -38,10 +44,15 @@ const Body =()=>{
     
     <section id="landing">
         <div className="home" >
-           
-        </div>
+            <div className="timer-container">
+            {/* <img src={timer} className="timer" /> */}
+            {/* <div className="countdown-body"> */}
+            <Countdown/></div>
+        {/* </div> */}
+            </div>
+            
     </section>  
-    
+   
     <section  id="trex">  
         <div className="trex-body">
             
@@ -80,6 +91,25 @@ const Body =()=>{
               <img className="nxgen" src={nxgen}    />
               <img className="moonrock" src={moonrock} />
                <img className="nabais" src={nabais}   />
+              
+              
+              
+             </div>
+           </div>
+        </div>
+    </section>
+    <section id="backers">
+        <div className="backers-body" style={{ fontFamily: 'Heaven'}} >
+           <p style={{ textAlign:"center",color:"#FF7A00"}} className="text-with-gradient">Launchpad partners</p>
+           <div className="backers-logo" >
+             
+              <div  className="backers-container">
+              <img className="fundland" src={seedify}  />
+              <img className="fundland" src={alex}    />
+             
+              
+              <img className="orangedx" src={orangedx} />
+               <img className="marshland" src={finceptor}   />
               
               
               
