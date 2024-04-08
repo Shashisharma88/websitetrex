@@ -57,14 +57,7 @@ const Navbar = () => {
         <li
             className="nav-link"
           >
-            <a  onClick={toggleDropdown} href="#launch" >Launch App {dropdownVisible && (
-              <ul className="dropdown">
-                <li>
-                  <a className="drop" >Coming Soon</a>
-                </li>
-                
-              </ul>
-            )}</a>
+            <a   target="_blank" >Launch App </a>
           </li>
       </ul>
     </div>
@@ -95,14 +88,7 @@ const Navbar = () => {
         <li style={{fontFamily:"Pixelify Sans"}}><a href="#lotto" style={{display:"flex" , justifyContent:"start"}}>&nbsp;&nbsp;<img src={iconlotto} />&nbsp;&nbsp;&nbsp;Lotto</a></li>
         <li style={{fontFamily:"Pixelify Sans"}}><a href="#roadmap" style={{display:"flex" , justifyContent:"start"}}>&nbsp;&nbsp;<img src={iconroadmap} />&nbsp;&nbsp;Roadmap</a></li>
         <li style={{fontFamily:"Pixelify Sans"}}><a href="#contact">&emsp;&ensp;Contact</a></li>
-        <li style={{fontFamily:"Pixelify Sans"}}><a href="#l"  onClick={toggleDropdown}>&emsp;Launch App{dropdownVisible && (
-              <ul className="dropdown">
-                <li>
-                  <a className="drop" >Coming Soon</a>
-                </li>
-                
-              </ul>
-            )}</a></li>
+        <li style={{fontFamily:"Pixelify Sans"}}><a  target="_blank" >&emsp;Launch App</a></li>
         <li style={{fontFamily:"Pixelify Sans"}}><a href="https://trex20.gitbook.io/trex20" target="_blank" >&emsp;Whitepaper</a></li>
       </ul>
     </nav>
@@ -112,3 +98,22 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// {dropdownVisible && (
+//   <ul className="dropdown">
+//     <li>
+//       <a className="drop" >Coming Soon</a>
+//     </li>
+    
+//   </ul>
+// )}
+//onClick={toggleDropdown}
+
+// {dropdownVisible && (
+//   <ul className="dropdown">
+//     <li>
+//       <a className="drop" >Coming Soon</a>
+//     </li>
+    
+//   </ul>
+// )}

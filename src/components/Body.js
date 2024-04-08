@@ -22,7 +22,12 @@ import finceptor from "../../assets/finceptor.png"
 import orangedx from "../../assets/orangedx.png"
 import timer from "../../assets/timer.png"
 import Countdown from "./Countdown/Countdown";
-
+import poolz from "../../assets/poolz.png"
+import mexc from "../../assets/mexc.png"
+import unisat from "../../assets/unisat.png"
+import gateio from "../../assets/gateio.png"
+import buy from "../../assets/buy.png"
+import pancake from "../../assets/pancake.png"
 const Body =()=>{
     const submitHandler = (event)=>{
         event.preventDefault();
@@ -44,6 +49,15 @@ const Body =()=>{
     
     <section id="landing">
         <div className="home" >
+            <div className="buy-container">
+                <div className="buy-on">Buy On:</div>
+                <div className="buy-platform">
+               <a href="https://www.gate.io/trade/TX20_USDT" target="_blank"> <img src={gateio} className="gateio" /></a>
+               <a><img src={mexc} className="mexc" /></a>
+               <a> <img src={unisat} className="unisat" /></a>
+               <a> <img src={pancake} className="pancake" /></a>
+                </div>
+            </div>
             <div className="timer-container">
             {/* <img src={timer} className="timer" /> */}
             {/* <div className="countdown-body"> */}
@@ -106,13 +120,14 @@ const Body =()=>{
               <div  className="backers-container">
               <img className="fundland" src={seedify}  />
               <img className="fundland" src={alex}    />
-             
-              
+              <img className="marshland" src={finceptor}   />
+               {/* <img className="marshland" src={finceptor}   />
+              <img className="fundland" src={poolz}/> */}
+             </div>
+              <div  className="backers-container">
               <img className="orangedx" src={orangedx} />
-               <img className="marshland" src={finceptor}   />
-              
-              
-              
+               
+              <img className="fundland" src={poolz}/>
              </div>
            </div>
         </div>

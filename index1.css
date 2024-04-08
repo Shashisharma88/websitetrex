@@ -172,19 +172,68 @@ body {
   margin-left: 10vw;
 
 }
+.buy-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 0vh;
+}
+.buy-platform{
+
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+.buy-on{
+  font-size: 2.5vw;
+  font-family: "Pixelify Sans";
+
+  color: #000;
+  padding: 10px;
+}
+.gateio{
+  cursor: pointer;
+  background: #fff;
+  /* box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.62) inset; */
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+ width:8vw;
+ padding: 10px;
+ border-radius: 10px;
+}
+.mexc{
+  cursor: pointer;
+  background: #FFF;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+  width:16.5vw;
+  padding: 10px;
+  border-radius: 10px;
+}
+.unisat{
+  cursor: pointer;
+  background: #FFF;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+  width:8vw;
+  padding: 10px;
+  border-radius: 10px;
+}
+.pancake{
+  cursor: pointer;
+  background: #FFF;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+  width:11.5vw;
+  padding: 10px;
+  border-radius: 10px;
+}
 /* .timer{
- 
   height:120px;
-  
- 
 } */
 .timer-container{
   display: flex;
   justify-content: center;
- padding-top: 14vh;
+ padding-top: 4.5vh;
 }
 /* .countdown-body{
-  
  position: absolute;
  top: 0;
 left: 400px;
@@ -444,7 +493,7 @@ font-size: 1.5vw;
 @media only screen and (max-width: 768px) {
   .timer-container{
     
-    padding-top: 25vh;
+    padding-top: 10vh;
    }
 .navbar-mob {
   background: linear-gradient(
@@ -488,7 +537,7 @@ font-size: 1.5vw;
   height: 20px;
   cursor: none;
   padding: 5px;
-  z-index: 1001;
+  z-index: 10000;
   margin-top: 1.2vh;
   margin-left: 2vw;
   margin-right: 2vw;
@@ -497,7 +546,7 @@ font-size: 1.5vw;
   background: lightgray 50% / cover no-repeat;
   padding: 0px;
   margin: 0px;
-  z-index: 1001;
+  z-index: 10002;
 }
 .navbar-mob.open>.hamburger-container{
   background:none;
@@ -539,7 +588,7 @@ font-size: 1.5vw;
   transition: left 0.3s ease;
   background-image: url('./assets/navmobile.png');
   background-size: 100% 100%;
- 
+ z-index: 100;
 }
 
 .nav-item-mob li {
@@ -594,7 +643,59 @@ cursor: none;
   margin-top: 0px;
   padding-top: 0px;
   }
+  .buy-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    padding-top: 1vh;
+
+  }
+  .buy-platform{
   
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .buy-on{
+    font-size: 5vw;
+    width: 130px;
+    text-align: center;
+  }
+  .gateio{
+    cursor: pointer;
+    background: #fff;
+    /* box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.62) inset; */
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+   width:20vw;
+   padding: 10px;
+   border-radius: 10px;
+  }
+  .mexc{
+    cursor: pointer;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+    width:35.5vw;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .unisat{
+    cursor: pointer;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+    width:20vw;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .pancake{
+    cursor: pointer;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+    width:26.5vw;
+    padding: 10px;
+    border-radius: 10px;
+  }
   .trex-body{
     background-image:url('./assets/trexmob.png');
     width: 100vw;
@@ -790,9 +891,15 @@ cursor: none;
 @media only screen and (min-width: 1800px){
   .timer-container{
     
-   padding-top: 17vh;
+   padding-top: 9vh;
   }
-
+  .buy-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 2vh;
+  }
 }
 
 /*.under {
