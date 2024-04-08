@@ -891,7 +891,7 @@ cursor: none;
 @media only screen and (min-width: 1800px){
   .timer-container{
     
-   padding-top: 9vh;
+   padding-top: 7.5vh;
   }
   .buy-container{
     display: flex;
