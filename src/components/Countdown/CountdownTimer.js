@@ -5,7 +5,7 @@ import { useCountdown } from '../../hooks/useCountdown';
 const ExpiredNotice = () => {
   return (
     <div className="expired-notice">
-      <span>Launched!!!</span>
+      <span>$TX20 is LIVE NOW!</span>
       
     </div>
   );
@@ -35,18 +35,25 @@ const ShowCounter = ({ days, hours, minutes, seconds }) => {
 const CountdownTimer = ({ targetDate }) => {
   const [days, hours, minutes, seconds] = useCountdown(targetDate);
 
-  if (days + hours + minutes + seconds <= 0) {
-    return <ExpiredNotice />;
+  if (days + hours + minutes + seconds >= 0) {
+
+    return (    <div className='countdown-tab'>
+     
+    <p >Launching Soon</p>
+    <ShowCounter
+    days={days}
+    hours={hours}
+    minutes={minutes}
+    seconds={seconds}
+  />
+    
+  </div> );
   } else {
     return (
-      <ShowCounter
-        days={days}
-        hours={hours}
-        minutes={minutes}
-        seconds={seconds}
-      />
+     <ExpiredNotice/>
     );
   }
 };
+
 
 export default CountdownTimer;

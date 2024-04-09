@@ -12,11 +12,6 @@ var date = new Date(Date.UTC(2024, 3, 9, 13, 0, 0));
   const countDown = date;
 
   return (
-    <div className='countdown-tab'>
-     
-      <p >Launching Soon</p>
-      <CountdownTimer targetDate={countDown} />
-      
-    </div>
+    <CountdownTimer targetDate={countDown} />
   );
 }
