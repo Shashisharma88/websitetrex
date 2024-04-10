@@ -54,7 +54,7 @@ const Body =()=>{
                 <div className="buy-platform">
                <a href="https://www.gate.io/trade/TX20_USDT" target="_blank"> <img src={gateio} className="gateio" /></a>
                <a href="https://www.mexc.com/exchange/TX20_USDT?_from=search_spot_trade"target="_blank"><img src={mexc} className="mexc" /></a>
-               <a> <img src={unisat} className="unisat" /></a>
+               <a href="https://unisat.io/market/brc20?tick=TX20" target="_blank"> <img src={unisat} className="unisat" /></a>
                <a href="https://pancakeswap.finance/swap?inputCurrency=0x55d398326f99059fF775485246999027B3197955&outputCurrency=0x29838b8C8b7CD6F0698c2fd6feAf0363d2CB6dA1" target="_blank"> <img src={pancake} className="pancake" /></a>
                 </div>
             </div>
@@ -95,16 +95,16 @@ const Body =()=>{
            <p style={{ textAlign:"center",color:"#FF7A00"}} className="text-with-gradient">backers</p>
            <div className="backers-logo" >
               <div  className="backers-container">
-              <img className="triplegem" src={triplegem} />
-              <img className="oddiyana" src={oddiyana} />
-              <img className="marshland" src={marshland} />
-              <img className="x21" src={x21} />
+              <a href="https://www.triplegem.capital/" target="_blank"><img className="triplegem" src={triplegem} /></a>
+              <a href="https://oddiyana.ventures/" target="_blank"><img className="oddiyana" src={oddiyana} /></a>
+              <a href="https://www.marshlandcapital.com/" target="_blank"><img className="marshland" src={marshland} /></a>
+              <a href="https://x21digital.com/" target="_blank"><img className="x21" src={x21} /></a>
              </div>
               <div  className="backers-container">
-              <img className="fundland" src={fundland}  />
-              <img className="nxgen" src={nxgen}    />
-              <img className="moonrock" src={moonrock} />
-               <img className="nabais" src={nabais}   />
+              <a href="https://fundland.capital/" target="_blank"><img className="fundland" src={fundland}  /></a>
+              <a href="https://www.nxgen.xyz/" target="_blank"><img className="nxgen" src={nxgen}    /></a>
+              <a href="https://www.moonrockcapital.io/" target="_blank"><img className="moonrock" src={moonrock} /></a>
+              <a href="https://nabais.capital/" target="_blank"><img className="nabais" src={nabais}   /></a> 
               
               
               
@@ -118,16 +118,16 @@ const Body =()=>{
            <div className="backers-logo" >
              
               <div  className="backers-container">
-              <img className="fundland" src={seedify}  />
-              <img className="fundland" src={alex}    />
-              <img className="marshland" src={finceptor}   />
+             <a href="https://seedify.fund/" target="_blank"><img className="fundland" src={seedify}  /></a> 
+             <a href="https://alexlab.co/" target="_blank"><img className="fundland" src={alex}    /></a> 
+             <a href="https://finceptor.app/" target="_blank"><img className="marshland" src={finceptor}   /></a> 
                {/* <img className="marshland" src={finceptor}   />
               <img className="fundland" src={poolz}/> */}
              </div>
               <div  className="backers-container">
-              <img className="orangedx" src={orangedx} />
+             <a href="https://orangedx.com/" target="_blank"><img className="orangedx" src={orangedx} /></a> 
                
-              <img className="fundland" src={poolz}/>
+             <a href="https://www.poolz.finance/" target="_blank"> <img className="fundland" src={poolz}/></a>
              </div>
            </div>
         </div>
