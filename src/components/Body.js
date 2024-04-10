@@ -28,6 +28,8 @@ import unisat from "../../assets/unisat.png"
 import gateio from "../../assets/gateio.png"
 import buy from "../../assets/buy.png"
 import pancake from "../../assets/pancake.png"
+import bingx from "../../assets/bingx.png"
+
 const Body =()=>{
     const submitHandler = (event)=>{
         event.preventDefault();
@@ -56,6 +58,7 @@ const Body =()=>{
                <a href="https://www.mexc.com/exchange/TX20_USDT?_from=search_spot_trade"target="_blank"><img src={mexc} className="mexc" /></a>
                <a href="https://unisat.io/market/brc20?tick=TX20" target="_blank"> <img src={unisat} className="unisat" /></a>
                <a href="https://pancakeswap.finance/swap?inputCurrency=0x55d398326f99059fF775485246999027B3197955&outputCurrency=0x29838b8C8b7CD6F0698c2fd6feAf0363d2CB6dA1" target="_blank"> <img src={pancake} className="pancake" /></a>
+               <a href="https://bingx.com/en-us/spot/TX20USDT/?ch=DEBUT" target="_blank"> <img src={bingx} className="bingx" /></a>
                 </div>
             </div>
             <div className="timer-container">
