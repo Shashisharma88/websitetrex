@@ -1,0 +1,61 @@
+/* PrivacyPolicy.css */
+body{
+    background: linear-gradient(0deg, #1A1C20 0%, rgba(207, 117, 0, 0.92) 100%);
+}
+.privacy-container{
+    background-color: rgba(0, 0, 0, 0.3); 
+    max-width: 90vw;
+    margin: 0 auto;
+    margin-top: 20vh;
+    margin-bottom: 12vh;
+    color: #fff;
+    font-family: "Pixelify Sans";
+    border-color: #1A1C20;
+    border-width: 2px;
+    border-style: double;
+    border-radius: 20px;
+}
+.main-header{
+    font-size: 55px;
+    
+}
+.privacy-policy {
+    width: 95%;
+    margin: 0 auto;
+
+   padding-top: 0px;
+   padding-bottom: 30px;
+}
+
+.policy-content>p {
+  font-size: 18px;
+}
+.policy-content>ul>li {
+  font-size: 18px;
+}
+.sub-header{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.sub-paragraph{
+    margin-top: 5px;
+}
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .privacy-policy {
+        width: 95%;
+        
+    }
+}
+
+@media (max-width: 480px) {
+    .privacy-policy {
+        width: 96%;
+        padding-top: 20px;
+        
+    }
+    .main-header{
+        font-size: 45px;
+        margin-top: 0px;
+    }
+}
