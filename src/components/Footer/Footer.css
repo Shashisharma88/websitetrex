@@ -1,0 +1,167 @@
+/* Base styles */
+.footer {
+    background-color: #1A1C20;
+    color: white;
+    padding: 60px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: "Pixelify Sans";
+  }
+  
+  
+  .footer-section {
+    flex: 1 0 32%; 
+  }
+  
+  .company {
+    display: flex;
+    flex-direction: column;
+   
+    margin-right: 100px;
+  }
+
+ .description{
+    font-size: 17px;
+   
+ }
+  .logo-text {
+    width: 120px;
+  }
+  
+  .socials {
+    display: flex;
+    line-height: 0px;
+    justify-content: center;
+  }
+  .socialLinks {
+	margin: 0px 10px;
+	font-size: 30px;
+	color: white;
+}
+.socialLinks:hover {
+	color: #fba117;
+}
+  .social-container{
+    display: flex;
+    flex-direction: column;
+   
+    padding-top: 0px;
+    margin-top: 0px;
+   line-height: 0px;
+   gap: 5px;
+   text-align: center;
+  }
+  .socials a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+
+  }
+  .footer-header{
+    font-size: 25px;
+    line-height: 0px;
+  }
+  /* .socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0px;
+  } */
+  .contacts{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    line-height: 0px;
+    font-size: 17px;
+  }
+  .contacts a{
+    color: white;
+    text-decoration: none;
+    
+  }
+  .contacts a :hover{
+   color:#ffc400;
+    
+  }
+  .footer-line {
+    width: 100%;
+    border-top: 1px solid white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .legal {
+    display: flex;
+   
+    align-items: center;
+    font-size: 17px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .legal-privacy{
+    display: flex;
+    gap: 30px;
+    color: #fff;
+  }
+  .legal-privacy :hover{
+    color:#ffc400;
+  }
+  .legal a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .footer {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: start;
+      }
+      
+    .footer-section {
+        flex: 1 0 100%; 
+        margin-bottom: 0px;
+      }
+      .description{
+        font-size: 17px;
+        width: 85vw;
+       
+     }
+     .social-container{
+        display: flex;
+        flex-direction: column;
+       gap: 5px;
+       text-align: start;
+      }
+      .socials {
+        display: flex;
+        justify-content: start;
+        
+      }
+      .contacts{
+        float: inline-start;
+        line-height: 0px;
+        font-size: 17px;
+        margin-top: 20px;
+      }
+      .footer-line {
+      
+        margin-bottom: 20px;
+      }
+      .legal {
+        display: flex;
+       flex-direction: column;
+        align-items: center;
+        font-size: 17px;
+        justify-content: center;
+        margin-bottom: 30px;
+      }
+  }
+  
