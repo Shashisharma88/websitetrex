@@ -65,7 +65,7 @@ const Footer = () => {
 
         <div className="legal">
           <div className='legal-privacy' >
-          <a href="https://trex20.xyz/privacy-policy">Privacy Policy</a>
+          <a href="http://localhost:1234/privacy-policy">Privacy Policy</a>
           <a href="https://trex20.xyz/terms-of-service">Terms of service</a></div>
           <p style={{display:"flex",alignItems:"center",opacity:"80%"}} ><FaRegCopyright /> &nbsp;{new Date().getFullYear()} Trex20. All rights reserved.</p>
         </div>
