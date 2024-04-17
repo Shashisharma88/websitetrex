@@ -103,6 +103,10 @@
   .legal-privacy{
     display: flex;
     gap: 30px;
+    color: #fff;
+  }
+  .legal-privacy :hover{
+    color:#ffc400;
   }
   .legal a {
     color: white;
