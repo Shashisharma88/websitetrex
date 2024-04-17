@@ -11,7 +11,7 @@ const PrivacyPolicy = () => {
                
                 <p>
                 This Privacy Policy governs the manner in which Trex20 collects, uses, maintains and discloses information collected from users (each, a “User”) of the website (“Site”). 
-                We may collect personal identification information from Users in a variety of ways, including, when Users visit Trex20 sites, register on our platform, fill out our subscribe and newsletter forms, contact our support team,  etc. Users may be asked for, as appropriate, their name, email address, mailing address, and phone number. Users may, however, visit our Site anonymously. 
+                We may collect personal identification information from Users in a variety of ways, including, when Users visit Trex20 sites, register on our platform, fill out our subscribe and newsletter forms, contact our support team,  etc. Users may be asked for, as appropriate, their name, email address,and mailing address. Users may, however, visit our Site anonymously. 
                 Complete details on each type of Personal Data collected are provided in the dedicated sections of this privacy policy or by specific explanation texts displayed prior to the Data collection.
                 Personal Data may be freely provided by the User, or, in case of Usage Data, collected automatically when using this Website.
                 </p>
@@ -29,7 +29,6 @@ const PrivacyPolicy = () => {
                     <li>To send newsletters and updates</li>
                     <li>We may use information in the aggregate to understand how our Users as a group use the services and resources provided on our Site.</li>
                     <li>We continually strive to improve our website offerings based on the information and feedback we receive from you.</li>
-                    <li>We may use the information Users provide about themselves when placing an order only to provide service to that order.</li>
                     <li>We do not share this information with third parties.</li>
                 </ul>
                 <p>The email address Users provide for order processing, will only be used to send them information and updates pertaining to their order. It may also be used to respond to their inquiries, and/or other requests or questions. If User decides to opt-in to our mailing list, they will receive emails that may include company news, updates, related product or service information, etc.</p>

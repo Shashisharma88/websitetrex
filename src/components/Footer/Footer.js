@@ -53,7 +53,7 @@ const Footer = () => {
     
         <div className="contacts" >
         <p className='footer-header' >Contacts</p>
-        <a href='#contact'> <p >Contact us</p></a>
+        <a href='https://trex20.xyz/#contact'> <p >Contact us</p></a>
         <div style={{display:"flex"}}>
        <p>Reach us at &nbsp;</p>
        <a href="mailto:info@trex20.xyz" target='_self'><p style={{color:"#fba117"}}>info@trex20.xyz</p></a> </div>
@@ -65,8 +65,8 @@ const Footer = () => {
 
         <div className="legal">
           <div className='legal-privacy' >
-          <Link to="/privacy-policy">Privacy Policy</Link>
-          <Link to="/terms-of-service">Terms of service</Link></div>
+          <a href="https://trex20.xyz/privacy-policy">Privacy Policy</a>
+          <a href="https://trex20.xyz/terms-of-service">Terms of service</a></div>
           <p style={{display:"flex",alignItems:"center",opacity:"80%"}} ><FaRegCopyright /> &nbsp;{new Date().getFullYear()} Trex20. All rights reserved.</p>
         </div>
       </div>
